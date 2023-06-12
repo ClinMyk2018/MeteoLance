@@ -1,0 +1,46 @@
+{
+    "projects": [
+      {
+        "title": "The Memory Police",
+        "author": "Yoko Ogawa",
+        "price": 14.72,
+        "currency": "$",
+        "category": "Science Fiction > Dystopian",
+        "isbn13": 9781101911815,
+        "description": "On an unnamed island, objects are disappearing: first hats, then ribbons, birds, roses..."
+      },
+  
+      {
+        "title": "Rhinoceros and Other Plays",
+        "author": "Eugène Ionesco",
+        "price": 16.02,
+        "currency": "$",
+        "category": "Plays > Theatre",
+        "publisher": "Grove Press",
+        "isbn13": 9780802130983,
+        "description": "A rhinoceros suddenly appears in a small town, tramping through its peaceful streets."
+      },
+  
+      {
+        "title": "Memento Mori",
+        "author": "Muriel Spark",
+        "price": 15.97,
+        "currency": "$",
+        "category": "Novels",
+        "isbn13": 9780811223041,
+        "publisher": "New Directions Publishing Corporation",
+        "description": "In late 1950s London, something uncanny besets a group of elderly friends."
+      },
+  
+      {
+        "title": "Atlas of AI",
+        "author": "Kate Crawford",
+        "price": 25.76,
+        "currency": "$",
+        "category": "Nonfiction > Technology",
+        "publisher": "Yale University Press",
+        "isbn13": 9780300209570,
+        "description": "The hidden costs of artificial intelligence--from natural resources and labor to privacy, equality, and freedom"
+      }
+    ]
+  }
