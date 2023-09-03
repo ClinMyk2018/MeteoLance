@@ -1,5 +1,5 @@
 import {createRouter} from 'vue-router';
-import Homepage from './home/Homepage.vue';
+import Homepage from './home/HomePage.vue'
 import Projects from './projects/ProjectsPage.vue';
 import Profile from './profile/ProfilePage.vue';
 
