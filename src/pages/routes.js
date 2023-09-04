@@ -6,12 +6,17 @@ import Profile from './profile/ProfilePage.vue';
 const routes = [
   {
     path: '/',
-    component: Homepage
+    component: Projects
   },
 
   {
     path: '/projects/',
     component: Projects
+  },
+
+  {
+    path: '/home/',
+    component: Homepage
   },
 
   {

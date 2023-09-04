@@ -1,8 +1,3 @@
-<script setup>
-import {useProfile} from '../store/profileStore';
-
-</script>
-
 <style>
     .profile-container {
       display: flex;
@@ -45,6 +40,7 @@ import {useProfile} from '../store/profileStore';
 </template>
 
 <script>
+import {useProfile} from '../store/profileStore';
 import { mapState, mapActions } from 'pinia'
 
 export default {

@@ -1,7 +1,3 @@
-<script setup>
-import {useProjects} from '../store/projectsStore';
-</script>
-
 <style>
 .projects-panel {
   padding: 3rem 1rem;
@@ -62,6 +58,7 @@ import {useProjects} from '../store/projectsStore';
 </template>
 
 <script>
+import {useProjects} from '../store/projectsStore';
 import { mapState, mapActions } from 'pinia'
 
 export default {
@@ -71,14 +68,9 @@ export default {
 
   methods: {
     ...mapActions(useProjects, ['fetchProjects']),
-
-    addToCart() {
-      // we'll populate this later
-    }
   },
 
   created() {
-    // when the template is created, we call this action
     this.fetchProjects();
   }
 };
