@@ -1,5 +1,5 @@
 <script setup>
-import {useProjects} from '../store/store';
+import {useProjects} from '../store/projectsStore';
 </script>
 
 <style>
