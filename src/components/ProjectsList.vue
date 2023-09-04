@@ -1,35 +1,49 @@
 <style>
 .projects-panel {
   padding: 3rem 1rem;
-  background-color: rgb(18, 72, 0);
-  border: 2px solid rgb(62, 246, 0);
-  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .projects-panel_title {
-  color: #fff;
+  color: #000;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .projects-panel_main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  background-color: #000;
-  border: 2px solid #fff;
-  border-radius: 5px;
 }
 .projects-panel_card {
   display: flex;
   justify-content: left;
   background-color: #fff;
-  border: 2px solid rgb(62, 246, 0);
+  border: 2px solid #555;
   border-radius: 5px;
   padding: 1rem;
-  margin: 10px;
+  margin: 5px;
+  width: 100%;
+}
+.projects-panel_card:hover {
+  border: 2px solid #444;
+  box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.4);
 }
 .projects-panel_card-sections {
   display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-panel_card {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-panel_card {
+    width: 25%;
+  }
 }
 </style>
 
@@ -43,11 +57,9 @@
         <div class="projects-panel_card-sections_detail">
           <strong class="">{{ project.category }}</strong>
           <h3 class="">{{ project.title }}</h3>
-          <div class="">{{ project.author }}</div>
-          <p class="">{{ project.publisher }}</p>
+          <div class="">{{ project.company }}</div>
           <p class="">{{ project.description }}</p>
-          <p class="">{{ project.isbn13 }}</p>
-          <p class="">{{ project.currency }}{{ project.price }}</p>
+          <p class="">{{ project.years }}</p>
         </div>
       </div>
     </div>

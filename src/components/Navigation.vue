@@ -42,8 +42,8 @@ export default {
 .site-header {
   background-color: #333;
   color: white;
-  font-size: 5rem;
-  padding: 1rem 2rem;
+  font-size: 2rem;
+  padding: 1rem .5rem;
   text-align: left;
   border: 3px solid #000;
 }
@@ -52,10 +52,11 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   background-color: #333;
   border: 1px solid #444;
   margin-top: 1px;
+  padding: 1rem 0rem;
+  font-size: .8rem;
 }
 
 .nav-left, .nav-right {
@@ -81,6 +82,23 @@ a:hover {
 .active-link {
   color: red;
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .site-header {
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+  }
+  .site-navigation {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .site-header {
+    font-size: 3.5rem;
+  }
 }
 
 </style>

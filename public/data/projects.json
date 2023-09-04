@@ -1,46 +1,53 @@
 {
-    "projects": [
-      {
-        "title": "The Memory Police",
-        "author": "Yoko Ogawa",
-        "price": 14.72,
-        "currency": "$",
-        "category": "Science Fiction > Dystopian",
-        "isbn13": 9781101911815,
-        "description": "On an unnamed island, objects are disappearing: first hats, then ribbons, birds, roses..."
-      },
-  
-      {
-        "title": "Rhinoceros and Other Plays",
-        "author": "Eugène Ionesco",
-        "price": 16.02,
-        "currency": "$",
-        "category": "Plays > Theatre",
-        "publisher": "Grove Press",
-        "isbn13": 9780802130983,
-        "description": "A rhinoceros suddenly appears in a small town, tramping through its peaceful streets."
-      },
-  
-      {
-        "title": "Memento Mori",
-        "author": "Muriel Spark",
-        "price": 15.97,
-        "currency": "$",
-        "category": "Novels",
-        "isbn13": 9780811223041,
-        "publisher": "New Directions Publishing Corporation",
-        "description": "In late 1950s London, something uncanny besets a group of elderly friends."
-      },
-  
-      {
-        "title": "Atlas of AI",
-        "author": "Kate Crawford",
-        "price": 25.76,
-        "currency": "$",
-        "category": "Nonfiction > Technology",
-        "publisher": "Yale University Press",
-        "isbn13": 9780300209570,
-        "description": "The hidden costs of artificial intelligence--from natural resources and labor to privacy, equality, and freedom"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "category": "Climate Research",
+      "title": "Long-Term Climate Change Prediction",
+      "company": "ClimateX Labs",
+      "description": "A comprehensive study aimed at predicting long-term climate changes based on ocean currents and solar cycles.",
+      "years": "2018-2022"
+    },
+    {
+      "category": "Weather Forecasting",
+      "title": "Real-Time Storm Tracking",
+      "company": "Weatherify Inc.",
+      "description": "Developing real-time algorithms for tracking hurricanes, tornadoes, and other severe weather conditions.",
+      "years": "2019-2021"
+    },
+    {
+      "category": "Atmospheric Sciences",
+      "title": "Air Quality Monitoring",
+      "company": "AirGuardian",
+      "description": "Utilizing satellite data and ground sensors to monitor and report on air quality in urban areas.",
+      "years": "2017-2020"
+    },
+    {
+      "category": "Renewable Energy",
+      "title": "Wind Energy Assessment",
+      "company": "EcoPower",
+      "description": "Assessing the feasibility and efficiency of wind farms in various geographic locations.",
+      "years": "2015-2018"
+    },
+    {
+      "category": "Hydrology",
+      "title": "Flood Risk Assessment",
+      "company": "HydroSolutions",
+      "description": "Modeling and analysis of flood risk based on rainfall data and river basin morphology.",
+      "years": "2020-2022"
+    },
+    {
+      "category": "Environmental Policy",
+      "title": "Impact of Agriculture on Local Climate",
+      "company": "GreenPolicy Group",
+      "description": "Investigating the microclimate changes induced by large-scale agricultural activities.",
+      "years": "2016-2019"
+    },
+    {
+      "category": "Oceanography",
+      "title": "Sea Level Rise Projections",
+      "company": "Oceanus Labs",
+      "description": "Utilizing tide gauges and satellite altimetry to estimate future sea level changes.",
+      "years": "2019-2023"
+    }
+  ]
+}
